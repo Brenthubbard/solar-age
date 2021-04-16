@@ -1,6 +1,15 @@
-users input is calcualted for each planet
-mercury
-venus
-mars
-jupiter
-user input 
+users input is calculated for each planet
+mercury .24 earth years
+venus .62 earth years
+mars 1.88 earth years
+jupiter 11.86 years
+user input the average life expectancy for their demographic 
+if a user has already surpassed their life expectancy return the number of years they have lived past their life expectancy.
+
+
+
+
+
+build class to house all code
+ build a constructor for the planet frame work
+ build a method to make the calculations
