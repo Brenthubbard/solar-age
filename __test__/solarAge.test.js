@@ -30,7 +30,7 @@ describe('SolarAge', () => {
   })
     
   test('build life span object ', () => {
-    expect(age.mercuryLifeSpam());
+    expect(age.mercuryLifeSpan());
   })
   
 });
