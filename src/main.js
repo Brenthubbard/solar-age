@@ -6,7 +6,7 @@
 import solarAge from './solarAge.js';
 
 
-export default class solar
+// export default class solar
 
 
 

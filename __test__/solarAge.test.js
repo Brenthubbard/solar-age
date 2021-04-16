@@ -1,5 +1,5 @@
 import SolarAge from '../src/solarAge.js';
-import solarAge from '../src/solarAge.js';
+// import solarAge from '../src/solarAge.js';
 // import solarAge from '../src/main.js';
 
 
@@ -19,10 +19,15 @@ describe('SolarAge', () => {
     expect(age);
   });
   test('create objects using the constructor', () => {
-    expect(age.input).toEqual([]);
+    expect(age.name).toEqual();
+    expect(age.userLifeEx).toEqual(100);
+    expect(age.userAge).toEqual();
+    expect(age.planetTime).toEqual([]);
   })
     
-    
+  test('create a function to run age calculation', () => {
+    expect(age.yearsToLive());
+  })
     
   
   
