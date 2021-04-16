@@ -15,9 +15,11 @@ export default class SolarAge {
   }
   
 
-  // mercury() {
-  //   const userLifeEx = 400 - this.userAge
-  // }
+  mercuryLifeSpan() {
+    let mercuryLifeSpan = (this.userAge / .24);
+    return mercuryLifeSpan;
+  }
+  
   
   // venus() {
   //   const 

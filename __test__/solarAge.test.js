@@ -29,7 +29,9 @@ describe('SolarAge', () => {
     expect(age.yearsToLive());
   })
     
-  
+  test('build life span object ', () => {
+    expect(age.mercuryLifeSpam());
+  })
   
 });
   

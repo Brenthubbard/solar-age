@@ -1,12 +1,16 @@
 
-// import $ from 'jquery';
-// import 'bootstrap';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import './css/styles.css';
+import $ from 'jquery';
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './css/styles.css';
 import solarAge from './solarAge.js';
 
 
-// export default class solar
+$(document).ready(function () {
+  
+});
+
+
 
 
 
