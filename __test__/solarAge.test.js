@@ -18,6 +18,9 @@ describe('SolarAge', () => {
   test('create a age object using the solarAge constructor', () => {
     expect(age);
   });
+  test('create objects using the constructor', () => {
+    expect(age.input).toEqual();
+  })
     
     
     

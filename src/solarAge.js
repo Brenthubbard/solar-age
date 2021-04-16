@@ -3,8 +3,8 @@
 
 export default class SolarAge {
   constructor() {
-    this.age = [];
-    // this.planet = [];
+    this.input = [];
+    this.planet = [];
   
   }
 }
