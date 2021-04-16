@@ -1,6 +1,6 @@
-import Triangle from './../src/triangle.js';
+import Triangle from '../src/solar-age.js';
 
-describe('Triangle', () => {
+describe('solar-age', () => {
 
   test('should correctly create a triangle object with three lengths', () => {
     const triangle = new Triangle(2, 4, 5);
