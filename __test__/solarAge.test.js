@@ -26,11 +26,14 @@ describe('SolarAge', () => {
   })
     
   test('create a function to run age calculation', () => {
-    expect(age.yearsToLive());
+    expect(age.yearsLeft());
   })
     
   test('build life span object ', () => {
     expect(age.mercuryLifeSpan());
+    expect(age.venusLifeSpan());
+    expect(age.marsLifeSpan());
+    expect(age.jupiterLifeSpan());
   })
   
 });

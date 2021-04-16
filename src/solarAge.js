@@ -9,7 +9,7 @@ export default class SolarAge {
     this.planetTime = [];
   
   }
-  yearsToLive() {
+  yearsLeft() {
     const yearsLeft = this.userLifeEx - this.userAge;
     return yearsLeft;
   }
@@ -19,19 +19,22 @@ export default class SolarAge {
     let mercuryLifeSpan = (this.userAge / .24);
     return mercuryLifeSpan;
   }
-  
-  
-  // venus() {
-  //   const 
-  // }
-  
-  // mars() {
-  //   const 
-  // }
 
-  // jupiter() {
-    
-  // }
+  
+  venusLifeSpan() {
+    let venusLifeSpan = (this.userAge / .62);
+    return venusLifeSpan;
+  }
+  
+  marsLifeSpan() {
+    let marsLifeSpan = (this.userAge / 1.88);
+    return marsLifeSpan;
+  }
+
+  jupiterLifeSpan() {
+    let jupiterLifeSpan = (this.userAge / 11.86);
+    return jupiterLifeSpan;
+  }
 
 
   
