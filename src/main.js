@@ -1,13 +1,19 @@
 
-import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
-import solarAge from './solarAge.js';
+import $ from 'jquery';
+
+import SolarAge from './js/solarAge.js';
 
 
 $(document).ready(function () {
-  
+  $('#solarAge').submit(function(event){
+    event.preventDefault();
+    let lifeExp = $('#ageLimit').val();
+    let currentAge = $('ageInput').val();
+    
+  })
 });
 
 
