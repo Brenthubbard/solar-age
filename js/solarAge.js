@@ -2,13 +2,16 @@
 
 
 export default class SolarAge {
-  constructor(name, userAge) {
-    this.name = name
-    this.userLifeEx = 100;
+  constructor(name, userAge, userLifeEx) {
+    this.name = name;
     this.userAge = userAge;
-    this.ageOnPlanet = [];
-  
+    this.userLifeEx = userLifeEx;
   }
+  
+  
+
+    
+
   yearsLeft() {
     const yearsLeft = this.userLifeEx - this.userAge;
     return yearsLeft;
@@ -40,4 +43,4 @@ export default class SolarAge {
   
 };
 
-// const planetTime = yearsLeft / planetAge;
+

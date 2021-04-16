@@ -22,8 +22,8 @@ describe('SolarAge', () => {
     expect(age.name).toEqual();
     expect(age.userLifeEx).toEqual(100);
     expect(age.userAge).toEqual();
-    expect(age.ageOnPlanet).toEqual([]);
-  })
+  //   expect(age.ageOnPlanet).toEqual([]);
+  // })
     
   test('create a function to run age calculation', () => {
     expect(age.yearsLeft());
@@ -36,6 +36,9 @@ describe('SolarAge', () => {
     expect(age.jupiterLifeSpan());
   })
   
+    // test('', () => {
+    //   expect()
+    // })
 });
   
   
