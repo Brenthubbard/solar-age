@@ -1,16 +1,32 @@
-import Triangle from '../src/solar-age.js';
-
-beforeEach('solar-age', () => {
-
-
+import SolarAge from '../src/solarAge.js';
+import solarAge from '../src/solarAge.js';
+// import solarAge from '../src/main.js';
 
 
-  test('should link files correctly', () => {
+
+
+
+
+
+describe('SolarAge', () => {
+  
+  let age = new SolarAge();
+
+  beforeEach( () => {
   });
+
+  test('create a age object using the solarAge constructor', () => {
+    expect(age);
+  });
+    
+    
+    
+  
+  
+});
   
   
   
-  
 
 
 
@@ -21,7 +37,7 @@ beforeEach('solar-age', () => {
 
 
 
-  
+
   // const triangle = new Triangle(2, 4, 5);
   // expect(triangle.side1).toEqual(2);
   // expect(triangle.side2).toEqual(4);
@@ -35,4 +51,3 @@ beforeEach('solar-age', () => {
   //   const scalTriangle = new Triangle(4, 5, 7)
   //   expect(scalTriangle.checkType()).toEqual("scalene triangle");
   // });
-});

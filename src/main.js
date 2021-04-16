@@ -3,10 +3,10 @@
 // import 'bootstrap';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 // import './css/styles.css';
-import solar-age from './solar-age.js';
+import solarAge from './solarAge.js';
 
 
-
+export default class solar
 
 
 
