@@ -38,6 +38,20 @@ Describe Solar-age
     expect(age.venusLifeSpan());
     expect(age.marsLifeSpan());
     expect(age.jupiterLifeSpan());
+
+    
+  test('life span for user on planet', () => {
+    expect(age.mercuryYearsLeft());
+  })
+  test('life span for user on planet', () => {
+    expect(age.venusYearsLeft());
+  })
+  test('life span for user on planet', () => {
+    expect(age.marsYearsLeft());
+  })
+  test('life span for user on planet', () => {
+    expect(age.jupiterYearsLeft());
+  })
   
   
 
