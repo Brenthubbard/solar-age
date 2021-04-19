@@ -7,17 +7,11 @@ export default class SolarAge {
     this.userAge = userAge;
     this.userLifeEx = userLifeEx;
   }
-  
-  
-
-    
 
   yearsLeft() {
     const yearsLeft = this.userLifeEx - this.userAge;
     return yearsLeft;
   }
-  
-
   mercuryLifeSpan() {
     let mercuryLifeSpan = (this.userAge / .24);
     return mercuryLifeSpan;
