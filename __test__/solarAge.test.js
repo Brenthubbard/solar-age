@@ -13,6 +13,9 @@ describe('SolarAge', () => {
   test('converting user age into mercury age', () => {
     expect(age.MercuryAgeConvert()).toEqual(416)
   });
+  test('check equation for age left for Mercury', () => {
+      expect(age.MercuryYearsLeft()).toEqual(20)
+    });
 });
   
   

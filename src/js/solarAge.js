@@ -13,7 +13,11 @@ export default class SolarAge {
     let MercuryAgeConvert = Math.floor(this.userAge / .24);
     return MercuryAgeConvert;
 }
-
+  MercuryYearsLeft() {
+    let MercuryYearsLeft = Math.floor(105 - this.userAge);
+    let MercuryLifeEx = Math.floor(MercuryYearsLeft / .24);
+    return MercuryLifeEx;
+}
   
   // yearsLeft() {
   //   let lifeX = (math.floor(this.userLifeEx - this.userAge));
