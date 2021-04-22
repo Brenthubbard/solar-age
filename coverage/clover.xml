@@ -1,30 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1618852247911" clover="3.2.0">
-  <project timestamp="1618852247912" name="All files">
-    <metrics statements="21" coveredstatements="21" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="10" elements="31" coveredelements="31" complexity="0" loc="21" ncloc="21" packages="1" files="1" classes="1"/>
+<coverage generated="1619055378982" clover="3.2.0">
+  <project timestamp="1619055378983" name="All files">
+    <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2" elements="6" coveredelements="6" complexity="0" loc="4" ncloc="4" packages="1" files="1" classes="1"/>
     <file name="solarAge.js" path="C:\Users\hubba\desktop\solar-age\src\js\solarAge.js">
-      <metrics statements="21" coveredstatements="21" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="10"/>
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <line num="6" count="1" type="stmt"/>
       <line num="7" count="1" type="stmt"/>
-      <line num="8" count="1" type="stmt"/>
-      <line num="12" count="1" type="stmt"/>
       <line num="13" count="1" type="stmt"/>
-      <line num="16" count="1" type="stmt"/>
-      <line num="17" count="1" type="stmt"/>
-      <line num="20" count="1" type="stmt"/>
-      <line num="21" count="1" type="stmt"/>
-      <line num="25" count="1" type="stmt"/>
-      <line num="26" count="1" type="stmt"/>
-      <line num="29" count="1" type="stmt"/>
-      <line num="30" count="1" type="stmt"/>
-      <line num="34" count="1" type="stmt"/>
-      <line num="35" count="1" type="stmt"/>
-      <line num="38" count="1" type="stmt"/>
-      <line num="39" count="1" type="stmt"/>
-      <line num="43" count="1" type="stmt"/>
-      <line num="44" count="1" type="stmt"/>
-      <line num="47" count="1" type="stmt"/>
-      <line num="48" count="1" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
