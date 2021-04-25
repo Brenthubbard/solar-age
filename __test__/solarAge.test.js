@@ -25,9 +25,9 @@ describe('SolarAge', () => {
   test('Check equation for age left for Mars', () => {
 expect(age.MarsYearsLeft()).toEqual(7)
   })
-
-  // test('Check equation for age left for Jupiter', () => {
-  //   expect(age.JupiterYearsLeft())
-  // })
+  test('Check if userAge is converting for Jupiter', () => {
+    expect(age.JupiterAgeConvert()).toEqual(7)
+  })
+  // test()
 });
   

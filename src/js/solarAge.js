@@ -36,11 +36,11 @@ export default class SolarAge {
     let MarsLifeEx = Math.floor(MarsYearsLeft / 1.88);
     return MarsLifeEx;
   }
-  // JupiterAgeConvert() {
-  //   let JupiterAgeConvert = Math.floor(100 - this.userAge);
-  //   return JupiterAgeConvert;
-  // }
-
+  JupiterAgeConvert() {
+    let JupiterAgeConvert = Math.floor(this.userAge / 11.86);
+    return JupiterAgeConvert;
+  }
+ 
 
 // jupiter 11.86
 

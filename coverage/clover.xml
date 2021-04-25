@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1619318828024" clover="3.2.0">
-  <project timestamp="1619318828024" name="All files">
-    <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7" elements="24" coveredelements="24" complexity="0" loc="17" ncloc="17" packages="1" files="1" classes="1"/>
+<coverage generated="1619320832793" clover="3.2.0">
+  <project timestamp="1619320832793" name="All files">
+    <metrics statements="19" coveredstatements="19" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8" elements="27" coveredelements="27" complexity="0" loc="19" ncloc="19" packages="1" files="1" classes="1"/>
     <file name="solarAge.js" path="C:\Users\hubba\desktop\solar-age\src\js\solarAge.js">
-      <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
-      <line num="6" count="6" type="stmt"/>
-      <line num="7" count="6" type="stmt"/>
+      <metrics statements="19" coveredstatements="19" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8"/>
+      <line num="6" count="7" type="stmt"/>
+      <line num="7" count="7" type="stmt"/>
       <line num="13" count="1" type="stmt"/>
       <line num="14" count="1" type="stmt"/>
       <line num="17" count="1" type="stmt"/>
@@ -21,6 +21,8 @@
       <line num="35" count="1" type="stmt"/>
       <line num="36" count="1" type="stmt"/>
       <line num="37" count="1" type="stmt"/>
+      <line num="40" count="1" type="stmt"/>
+      <line num="41" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
