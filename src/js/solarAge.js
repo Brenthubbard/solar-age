@@ -7,8 +7,6 @@ export default class SolarAge {
     this.userAge = userAge;
     // this.userLifeEx = userLifeEx;
   }
-
-
   MercuryAgeConvert() {
     let MercuryAgeConvert = Math.floor(this.userAge / .24);
     return MercuryAgeConvert;
@@ -40,15 +38,11 @@ export default class SolarAge {
     let JupiterAgeConvert = Math.floor(this.userAge / 11.86);
     return JupiterAgeConvert;
   }
- 
-
-// jupiter 11.86
-
-
-
-
-
-  
+  JupiterYearsLeft() {
+    let JupiterYearsLeft = Math.floor(100 - this.userAge);
+    let JupiterLifeEx = Math.floor(JupiterYearsLeft / 11.86);
+    return JupiterLifeEx;
+  } 
 };
 
 

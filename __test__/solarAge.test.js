@@ -28,6 +28,8 @@ expect(age.MarsYearsLeft()).toEqual(7)
   test('Check if userAge is converting for Jupiter', () => {
     expect(age.JupiterAgeConvert()).toEqual(7)
   })
-  // test()
+  test('checking the equation for years left', () =>{
+    expect(age.JupiterYearsLeft()).toEqual(1);
+  })
 });
   
