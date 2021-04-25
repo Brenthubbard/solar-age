@@ -5,53 +5,29 @@ import SolarAge from './../src/js/solarAge.js';
 describe('SolarAge', () => {
   
   let age; beforeEach(() => {
-    age = new SolarAge("Neil", 100 )
+    age = new SolarAge("Neil", 85 )
   });
-
- 
-
   test('converting user age into mercury age', () => {
-    expect(age.MercuryAgeConvert()).toEqual(416)
+    expect(age.MercuryAgeConvert()).toEqual(354)
   });
   test('check equation for age left for Mercury', () => {
-      expect(age.MercuryYearsLeft()).toEqual(20)
-    });
+      expect(age.MercuryYearsLeft()).toEqual(62)
+  });
+  test('converting userAge into Venus age', () => {
+    expect(age.VenusAgeConvert()).toEqual(137)
+  });
+  test('Check equation for age left for Venus', () => {
+    expect(age.VenusYearsLeft()).toEqual(24)
+  })
+  test('make sure the userAge is converting', () => {
+    expect(age.MarsAgeConvert()).toEqual(45)
+  })
+  test('Check equation for age left for Mars', () => {
+expect(age.MarsYearsLeft()).toEqual(7)
+  })
+
+  // test('Check equation for age left for Jupiter', () => {
+  //   expect(age.JupiterYearsLeft())
+  // })
 });
   
-  
-  
-  
-  
-  
-  
-  // ate objects using the constructor', () => {
-//     expect(age.name).toEqual();
-//     expect(age.userLifeEx).toEqual();
-//     expect(age.userAge).toEqual();
-//     //   expect(age.ageOnPlanet).toEqual([]);
-//   })
-    
-//   test('create a function to run age calculation', () => {
-//     expect(age.yearsLeft());
-//   })
-    
-//   test('build life span object ', () => {
-//     expect(age.mercuryLifeSpan());
-//     expect(age.venusLifeSpan());
-//     expect(age.marsLifeSpan());
-//     expect(age.jupiterLifeSpan());
-//   })
-//   test('life span for user on planet', () => {
-//     expect(age.mercuryYearsLeft());
-//   })
-//   test('life span for user on planet', () => {
-//     expect(age.venusYearsLeft());
-//   })
-//   test('life span for user on planet', () => {
-//     expect(age.marsYearsLeft());
-//   })
-//   test('life span for user on planet', () => {
-//     expect(age.jupiterYearsLeft());
-//   })
-
-// });

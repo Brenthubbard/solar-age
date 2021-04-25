@@ -20,41 +20,7 @@
 This web application is designed to give the user their life expectancy on 4 different planets. 
 
 ## Specs
-
-Describe Solar-age
-  test 'create objects using the constructor'
-    expect(age.name).toEqual();
-    expect(age.userLifeEx).toEqual(100);
-    expect(age.userAge).toEqual();
-    expect(age.planetTime).toEqual([]);
-  
-    
-  test('create a function to run age calculation', () => {
-    expect(age.yearsLeft());
-  
-    
-  test('build life span object ', () => {
-    expect(age.mercuryLifeSpan());
-    expect(age.venusLifeSpan());
-    expect(age.marsLifeSpan());
-    expect(age.jupiterLifeSpan());
-
-    
-  test('life span for user on planet', () => {
-    expect(age.mercuryYearsLeft());
-  })
-  test('life span for user on planet', () => {
-    expect(age.venusYearsLeft());
-  })
-  test('life span for user on planet', () => {
-    expect(age.marsYearsLeft());
-  })
-  test('life span for user on planet', () => {
-    expect(age.jupiterYearsLeft());
-  })
-  
-  
-
+  See test file
 ## Setup/Installation Requirements
 
 1. CLone the repository from https://github.com/Brenthubbard/solar-age.git.
@@ -68,14 +34,8 @@ Describe Solar-age
 * Run the command 'npm run build to bundle files if needed.
 * Then, run the command 'npm run start' to start development server
 
-
- 
-
-
-
 ## Known Bugs
-
-
+No known bugs to date.
 
 ## License
 
