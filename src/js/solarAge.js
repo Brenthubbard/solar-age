@@ -42,7 +42,9 @@ export default class SolarAge {
     let JupiterYearsLeft = Math.floor(100 - this.userAge);
     let JupiterLifeEx = Math.floor(JupiterYearsLeft / 11.86);
     return JupiterLifeEx;
-  } 
+  }
+  
+  
 };
 
 
