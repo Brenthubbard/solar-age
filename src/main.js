@@ -9,13 +9,14 @@ import SolarAge from './../src/js/solarAge.js';
 $(document).ready(function () {
   $('#solarAge').submit(function (event) {
     event.preventDefault();
-    let lifeExp = $('#ageLimit').val();
-    let currentAge = $('ageInput').val();
+    const name = $('#name').val();
+    const age = $('#userAge').val();
+    const planet = $('#planet').val();
+    const solarAge = new SolarAge(name, age, planet);
+    let answer = solarAge.whichPlanet();
     $('.output').show();
+    $('.output').text(answer);
   });
-  
-
-    // $('#ageOutput').text(`Using your age input of ${userAge} we have calculated that on mercury you would be ${mercuryYearsLeft.SolarAge} years old and you life expectancy would be ${mercuryLifeSpan.SolarAge} )`
   
   
 });

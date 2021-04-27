@@ -1,8 +1,8 @@
 # {Application Name}
 
-#### {Brief description of application}
+#### This web application is designed to give the user their life expectancy on 4 different planets. 
 
-#### By: YOUR NAME
+#### By:Brent Hubbard
 
 ## Technologies Used
 
@@ -13,6 +13,7 @@
 * jQuery
 * JSON
 * MD
+* Node Package Manager
 
 
 ## Description

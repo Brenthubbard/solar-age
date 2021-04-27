@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1619362377291" clover="3.2.0">
+  <project timestamp="1619362377292" name="All files">
+    <metrics statements="22" coveredstatements="22" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="9" elements="31" coveredelements="31" complexity="0" loc="22" ncloc="22" packages="1" files="1" classes="1"/>
+    <file name="solarAge.js" path="C:\Users\hubba\desktop\solar-age\src\js\solarAge.js">
+      <metrics statements="22" coveredstatements="22" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="9"/>
+      <line num="6" count="8" type="stmt"/>
+      <line num="7" count="8" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
+      <line num="21" count="1" type="stmt"/>
+      <line num="24" count="1" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
+      <line num="26" count="1" type="stmt"/>
+      <line num="29" count="1" type="stmt"/>
+      <line num="30" count="1" type="stmt"/>
+      <line num="33" count="1" type="stmt"/>
+      <line num="34" count="1" type="stmt"/>
+      <line num="35" count="1" type="stmt"/>
+      <line num="38" count="1" type="stmt"/>
+      <line num="39" count="1" type="stmt"/>
+      <line num="42" count="1" type="stmt"/>
+      <line num="43" count="1" type="stmt"/>
+      <line num="44" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
