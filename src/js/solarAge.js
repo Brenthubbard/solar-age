@@ -40,7 +40,7 @@ export default class SolarAge {
     let JupiterLifeEx = Math.floor(JupiterYearsLeft / 11.86);
     return JupiterLifeEx;
   }
-  whichPlanet() {
+  WhichPlanet() {
     let planet = this.planet;
     let planetAge;
     let yearsLeft;
@@ -54,12 +54,14 @@ export default class SolarAge {
     } else if (planet === "mars") {
       planetAge = this.MarsAgeConvert();
       yearsLeft = this.MarsYearsLeft();
-    } else {
+    } else if (planet === "jupiter") {
       planetAge = this.JupiterAgeConvert();
       yearsLeft = this.JupiterYearsLeft();
+    } else {
+      return `You never left!`
     }
     if (yearsLeft < 0) {
-      answer = `According to our calculations on the planet ${planet} you are ${planetAge} years old and have a life expectancy on this planet is ${-yearsLeft} years left. You have exceeded your life span by ${-yearsLeft} on the planet`;
+      answer = `According to our calculations on the planet ${planet} you are ${planetAge} years old and have a life expectancy on this planet is ${-yearsLeft} years left. You have exceeded your life span by ${-yearsLeft}years on the planet`;
     } else {
       answer = `According to our calculations on the planet ${planet} you are ${planetAge} years old and have a life expectancy on this planet is ${yearsLeft} years left isn't that Great!!!!`;
     }

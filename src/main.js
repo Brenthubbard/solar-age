@@ -13,7 +13,7 @@ $(document).ready(function () {
     const age = $('#userAge').val();
     const planet = $('#planet').val();
     const solarAge = new SolarAge(name, age, planet);
-    let answer = solarAge.whichPlanet();
+    let answer = solarAge.WhichPlanet();
     $('.output').show();
     $('.output').text(answer);
   });
