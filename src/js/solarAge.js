@@ -61,7 +61,7 @@ export default class SolarAge {
       return `You never left!`
     }
     if (yearsLeft < 0) {
-      answer = `According to our calculations on the planet ${planet} you are ${planetAge} years old and have a life expectancy on this planet is ${-yearsLeft} years left. You have exceeded your life span by ${-yearsLeft}years on the planet`;
+      answer = `According to our calculations on the planet ${planet} you are ${planetAge} years old and have a life expectancy on this planet is ${-yearsLeft} years left. You have exceeded your life span by ${-yearsLeft} years on the planet`;
     } else {
       answer = `According to our calculations on the planet ${planet} you are ${planetAge} years old and have a life expectancy on this planet is ${yearsLeft} years left isn't that Great!!!!`;
     }
