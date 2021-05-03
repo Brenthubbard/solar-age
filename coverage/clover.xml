@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1619733836101" clover="3.2.0">
-  <project timestamp="1619733836102" name="All files">
+<coverage generated="1620062504487" clover="3.2.0">
+  <project timestamp="1620062504487" name="All files">
     <metrics statements="41" coveredstatements="41" conditionals="10" coveredconditionals="10" methods="10" coveredmethods="10" elements="61" coveredelements="61" complexity="0" loc="41" ncloc="41" packages="1" files="1" classes="1"/>
     <file name="solarAge.js" path="C:\Users\hubba\desktop\solar-age\src\js\solarAge.js">
       <metrics statements="41" coveredstatements="41" conditionals="10" coveredconditionals="10" methods="10" coveredmethods="10"/>
@@ -41,10 +41,10 @@
       <line num="58" count="1" type="stmt"/>
       <line num="59" count="1" type="stmt"/>
       <line num="61" count="1" type="stmt"/>
-      <line num="63" count="4" type="cond" truecount="2" falsecount="0"/>
-      <line num="64" count="1" type="stmt"/>
-      <line num="66" count="3" type="stmt"/>
-      <line num="68" count="4" type="stmt"/>
+      <line num="64" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="65" count="1" type="stmt"/>
+      <line num="67" count="3" type="stmt"/>
+      <line num="69" count="4" type="stmt"/>
     </file>
   </project>
 </coverage>

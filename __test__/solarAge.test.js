@@ -49,7 +49,7 @@ expect(age.MarsYearsLeft()).toEqual(7)
   test('check for Jupiter age with life span exceeded', () => {
     age.planet = "jupiter"
     age.userAge = 105
-    expect(age.WhichPlanet()).toEqual(`According to our calculations on the planet jupiter you are 8 years old and have a life expectancy on this planet is ${1} years left. You have exceeded your life span by ${1} years on the planet`)
+    expect(age.WhichPlanet()).toEqual(`According to our calculations on the planet jupiter you are 8 years old. You have exceeded your life span by ${1} years on the planet`)
   })
   test('make sure the mars age with time remaining is correct', () => {
     age.planet = "mars"
